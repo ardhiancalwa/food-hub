@@ -31,5 +31,19 @@ class Nav {
       page: () => const HomeScreen(),
       binding: HomeControllerBinding(),
     ),
+    GetPage(
+      name: Routes.SPLASHSCRENN_PAGE,
+      page: () => const SplashscrennPageScreen(),
+    ),
+    GetPage(
+      name: Routes.WELCOMING_PAGE,
+      page: () => const WelcomingPageScreen(),
+      binding: WelcomingPageControllerBinding(),
+    ),
+    GetPage(
+      name: Routes.LOGIN_PAGE,
+      page: () => const LoginPageScreen(),
+      binding: LoginPageControllerBinding(),
+    ),
   ];
 }
