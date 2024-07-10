@@ -16,7 +16,8 @@ class WelcomingPageScreen extends GetView<WelcomingPageController> {
           Container(
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('assets/images/background_welcoming.png'),
+                image: AssetImage(
+                    'assets/images/backgrounds/background_welcoming.png'),
                 fit: BoxFit.cover,
               ),
             ),
@@ -310,7 +311,9 @@ class WelcomingPageScreen extends GetView<WelcomingPageController> {
                         return null; // Default ripple color
                       }),
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      Get.toNamed(Routes.SIGNUP_PAGE);
+                    },
                     child: Text(
                       'Start with email or phone',
                       style: TextStyle(

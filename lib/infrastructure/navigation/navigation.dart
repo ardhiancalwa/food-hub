@@ -41,6 +41,16 @@ class Nav {
       binding: WelcomingPageControllerBinding(),
     ),
     GetPage(
+      name: Routes.SIGNUP_PAGE,
+      page: () => const SignupPageScreen(),
+      binding: SignupPageControllerBinding(),
+    ),
+    GetPage(
+      name: Routes.LOGIN_PAGE,
+      page: () => const LoginPageScreen(),
+      binding: LoginPageControllerBinding(),
+    ),
+    GetPage(
       name: Routes.LOGIN_PAGE,
       page: () => const LoginPageScreen(),
       binding: LoginPageControllerBinding(),

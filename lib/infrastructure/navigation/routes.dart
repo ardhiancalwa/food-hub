@@ -5,7 +5,8 @@ class Routes {
   }
 
   static const HOME = '/home';
+  static const LOGIN_PAGE = '/login-page';
+  static const SIGNUP_PAGE = '/signup-page';
   static const SPLASHSCRENN_PAGE = '/splashscrenn-page';
   static const WELCOMING_PAGE = '/welcoming-page';
-  static const LOGIN_PAGE = '/login-page';
 }
